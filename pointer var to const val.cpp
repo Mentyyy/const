@@ -1,3 +1,8 @@
+/*
+i and j are two pointer variables that are pointing to a memory location const int-type and const char-type, 
+but the value stored at these corresponding locations can be changed
+*/
+
 #include <iostream>
 using namespace std;
  
@@ -23,3 +28,4 @@ int main()
  
     cout << *i << " " << *j;
 }
+//Output: 9 A
